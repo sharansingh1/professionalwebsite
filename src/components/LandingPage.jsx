@@ -13,7 +13,7 @@ function LandingPage({ imageSrc }) {
         <h1 className="text-4xl md:text-6xl font-bold font-aesthetic mb-4">Sharanjeet Singh</h1>
         <p className="text-xl md:text-2xl font-aesthetic mb-4">Software Engineer</p>
       </div>
-      <div className="absolute inset-x-0 bottom-0 z-20">
+      <div className="absolute inset-x-0 bottom-0 z-50">
         <ThreeDCharacter />
       </div>
     </div>
