@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/professionalwebsite/static/css/main.24d6433a.css",
-    "main.js": "/professionalwebsite/static/js/main.7bd17e42.js",
+    "main.js": "/professionalwebsite/static/js/main.4787691a.js",
     "static/js/453.21678667.chunk.js": "/professionalwebsite/static/js/453.21678667.chunk.js",
     "static/media/MADE Mirage Black PERSONAL USE.otf": "/professionalwebsite/static/media/MADE Mirage Black PERSONAL USE.c38c50ad8d7cca1d5967.otf",
     "static/media/MADE Mirage Medium PERSONAL USE.otf": "/professionalwebsite/static/media/MADE Mirage Medium PERSONAL USE.c934e0ca0d1e70a594ad.otf",
@@ -14,11 +14,11 @@
     "static/media/AestheticRegular-Yzraq.otf": "/professionalwebsite/static/media/AestheticRegular-Yzraq.8a4496fa25db865ca707.otf",
     "index.html": "/professionalwebsite/index.html",
     "main.24d6433a.css.map": "/professionalwebsite/static/css/main.24d6433a.css.map",
-    "main.7bd17e42.js.map": "/professionalwebsite/static/js/main.7bd17e42.js.map",
+    "main.4787691a.js.map": "/professionalwebsite/static/js/main.4787691a.js.map",
     "453.21678667.chunk.js.map": "/professionalwebsite/static/js/453.21678667.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24d6433a.css",
-    "static/js/main.7bd17e42.js"
+    "static/js/main.4787691a.js"
   ]
 }
