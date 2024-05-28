@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/professionalwebsite/static/css/main.24d6433a.css",
+    "main.js": "/professionalwebsite/static/js/main.7bd17e42.js",
+    "static/js/453.21678667.chunk.js": "/professionalwebsite/static/js/453.21678667.chunk.js",
+    "static/media/MADE Mirage Black PERSONAL USE.otf": "/professionalwebsite/static/media/MADE Mirage Black PERSONAL USE.c38c50ad8d7cca1d5967.otf",
+    "static/media/MADE Mirage Medium PERSONAL USE.otf": "/professionalwebsite/static/media/MADE Mirage Medium PERSONAL USE.c934e0ca0d1e70a594ad.otf",
+    "static/media/MADE Mirage Thin PERSONAL USE.otf": "/professionalwebsite/static/media/MADE Mirage Thin PERSONAL USE.853c4ae65d412a0f74ba.otf",
+    "static/media/MADE Mirage Regular PERSONAL USE.otf": "/professionalwebsite/static/media/MADE Mirage Regular PERSONAL USE.8b48864cc8b861311931.otf",
+    "static/media/MADE Mirage Bold PERSONAL USE.otf": "/professionalwebsite/static/media/MADE Mirage Bold PERSONAL USE.2fb1cb867ac816cd61c5.otf",
+    "static/media/Bellina.ttf": "/professionalwebsite/static/media/Bellina.fd92583d1e6f2bcaa0b0.ttf",
+    "static/media/AestheticRegular-8M5dM.ttf": "/professionalwebsite/static/media/AestheticRegular-8M5dM.ee3ee0f476b613b9692f.ttf",
+    "static/media/PoiretOne-Regular.ttf": "/professionalwebsite/static/media/PoiretOne-Regular.9bf109e97f6294c6fe2b.ttf",
+    "static/media/AestheticRegular-Yzraq.otf": "/professionalwebsite/static/media/AestheticRegular-Yzraq.8a4496fa25db865ca707.otf",
+    "index.html": "/professionalwebsite/index.html",
+    "main.24d6433a.css.map": "/professionalwebsite/static/css/main.24d6433a.css.map",
+    "main.7bd17e42.js.map": "/professionalwebsite/static/js/main.7bd17e42.js.map",
+    "453.21678667.chunk.js.map": "/professionalwebsite/static/js/453.21678667.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24d6433a.css",
+    "static/js/main.7bd17e42.js"
+  ]
+}
