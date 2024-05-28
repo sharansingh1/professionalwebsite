@@ -1,3 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AestheticRegular';
+  src: url('./assets/fonts/AestheticRegular-8M5dM.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AestheticRegularOTF';
+  src: url('./assets/fonts/AestheticRegular-Yzraq.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MADEMirageBlack';
+  src: url('./assets/fonts/MADE Mirage Black PERSONAL USE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MADEMirageBold';
+  src: url('./assets/fonts/MADE Mirage Bold PERSONAL USE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MADEMirageMedium';
+  src: url('./assets/fonts/MADE Mirage Medium PERSONAL USE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MADEMirageRegular';
+  src: url('./assets/fonts/MADE Mirage Regular PERSONAL USE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MADEMirageThin';
+  src: url('./assets/fonts/MADE Mirage Thin PERSONAL USE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PoiretOne';
+  src: url('./assets/fonts/PoiretOne-Regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Belina';
+  src: url('./assets/fonts/Bellina.ttf') format('opentype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
