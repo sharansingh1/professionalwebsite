@@ -1,10 +1,9 @@
-// Navigation.js
 import React from 'react';
 import { Link } from 'react-scroll';
 
 function Navigation() {
   return (
-    <nav className="fixed w-full text-white py-4 z-20 bg-black bg-opacity-50 shadow-lg">
+    <nav className="fixed w-full text-white py-4 z-50 bg-black bg-opacity-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="text-2xl font-aesthetic font-bold">
           <Link

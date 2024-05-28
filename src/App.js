@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import Navigation from './components/Navigation';
 import LandingPage from './components/LandingPage';
