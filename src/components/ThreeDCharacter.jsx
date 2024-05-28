@@ -4,16 +4,14 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
 
 function Model(props) {
-  const { scene } = useGLTF('/scene.gltf');  // Ensure the path is correct
-  const modelRef = useRef();
+  const { scene } = useGLTF(process.env.PUBLIC_URL + '/scene.gltf');
+  const ref = useRef();
 
   useFrame(() => {
-    if (modelRef.current) {
-      modelRef.current.rotation.y += 0.01;  // Adjust rotation speed here
-    }
+    ref.current.rotation.y += 0.01;
   });
 
-  return <primitive ref={modelRef} object={scene} {...props} />;
+  return <primitive object={scene} ref={ref} {...props} />;
 }
 
 const ThreeDCharacter = () => {

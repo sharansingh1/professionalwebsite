@@ -1,4 +1,3 @@
-// LandingPage.js
 import React from 'react';
 import ThreeDCharacter from './ThreeDCharacter';
 
@@ -7,15 +6,15 @@ function LandingPage({ imageSrc }) {
     <div
       id="home"
       className="relative h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url(${imageSrc})` }}
+      style={{ backgroundImage: `url(${process.env.PUBLIC_URL + imageSrc})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white">
+      <div className="relative z-20 flex flex-col items-center justify-center h-full text-white">
         <h1 className="text-4xl md:text-6xl font-bold font-aesthetic mb-4">Sharanjeet Singh</h1>
-        <p className="text-xl md:text-2xl font-aesthetic mb-8">Software Engineer</p>
-        <div className="w-1/4 h-1/2">
-          <ThreeDCharacter />
-        </div>
+        <p className="text-xl md:text-2xl font-aesthetic mb-4">Software Engineer</p>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 z-10">
+        <ThreeDCharacter />
       </div>
     </div>
   );
