@@ -1,12 +1,11 @@
 import React from 'react';
-import Navigation from './components/Navigation'
+import Navigation from './components/Navigation';
 import LandingPage from './components/LandingPage';
 import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Extra from './components/Extra';
 import Footer from './components/Footer';
-import ThreeDObject from './components/ThreeDCharacter';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <Experience />
       <Extra />
       <Footer />
-      
     </div>
   );
 }
