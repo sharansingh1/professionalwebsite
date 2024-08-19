@@ -19,9 +19,9 @@ const ThreeDCharacter = () => {
       <ambientLight intensity={0.5} />
       <pointLight position={[10, 10, 10]} />
       <Suspense fallback={null}>
-        <Model scale={2} position={[0, -1, 0]} />
+        <Model scale={3} position={[0, -0.5, 0]} />
       </Suspense>
-      <OrbitControls />
+      <OrbitControls enableZoom={false}/>
     </Canvas>
   );
 };

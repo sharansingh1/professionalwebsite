@@ -14,9 +14,8 @@ function App() {
       <Navigation />
       <LandingPage imageSrc="/landing3.avif" />
       <About />
-      <Education />
       <Experience />
-      <Extra />
+      <Education />
       <Footer />
     </div>
   );

@@ -3,17 +3,23 @@ import React from "react";
 function Experience() {
   const experiences = [
     {
-      title: "Undergraduate Researcher",
-      description: "In my role as an Undergraduate Researcher at the University of California, Riverside, I was part of a dynamic team focused on engineering a comprehensive website to centralize air quality data from diverse sources. Working closely with professionals, I contributed to the development of specialized data pages using JavaScript, Tailwind CSS, HTML, and React, significantly improving data accessibility and analysis capabilities.",
+      title: "Undergraduate Researcher - Machine Learning",
+      description: "As an Undergraduate Researcher at the University of California, Riverside, I worked on enhancing the Wav2Vec model to improve speech recognition for accented English. I contributed to the EdgeAvatar project by refining AI models, integrating new datasets, and expanding the range of accurately transcribed accents."
+    },
+    {
+      title: "Software Developer Intern",
+      description: "In my role as an Software Developer Intern at the department of CE-CERT at UCR I was part of a dynamic team focused on engineering a comprehensive website to centralize air quality data from diverse sources. Working closely with professionals, I contributed to the development of specialized data pages using JavaScript, Tailwind CSS, and React, significantly improving data accessibility and analysis capabilities.",
     },
     {
       title: "Software Engineer Intern",
-      description: "As a member of the Software Engineer Committee at the Association for Computing Machinery (ACM), my primary responsibility was to collaborate with a diverse team in developing full-stack websites for university Hackathons. I played a hands-on role in resolving front-end challenges, implementing new features, and ensuring the quality of the websites through rigorous testing, resulting in highly functional platforms utilized by hundreds of students.",
+      description: "During my internship at Trapnstudio, I had the opportunity to contribute to the development of a cross-platform app designed for users with varying levels of technical proficiency. Working within a backend team, I focused on implementing critical endpoints in a REST API using Next.js, which significantly enhanced the app's functionality and performance.",
     },
     {
       title: "Software Engineer Community",
-      description: "During my internship at Trapnstudio, I had the opportunity to contribute to the development of a cross-platform app designed for users with varying levels of technical proficiency. Working within a backend team, I focused on implementing critical endpoints in a REST API using Next.js, which significantly enhanced the app's functionality and performance.",
+      description: "As a member of the Software Engineer Committee at the Association for Computing Machinery (ACM), my primary responsibility was to collaborate with a diverse team in developing full-stack websites for university Hackathons. I played a hands-on role in resolving front-end challenges, implementing new features, and ensuring the quality of the websites through rigorous testing, resulting in highly functional platforms utilized by hundreds of students.",
     },
+    
+    
   ];
 
   return (

@@ -8,7 +8,7 @@ function Education() {
         <div className="mb-8 text-center">
           <h2 className="text-2xl font-bold">University of California, Riverside (UCR)</h2>
           <h3 className="text-xl font-light">Bachelor of Science in Computer Science</h3>
-          <h3 className="text-xl font-light">2022 - 2024</h3>
+          <h3 className="text-xl font-light">2022 - 2025</h3>
         </div>
         <div className="mb-8 text-center">
           <h2 className="text-2xl font-bold">Relevant Coursework</h2>
@@ -20,11 +20,12 @@ function Education() {
         <div className="text-center">
           <h2 className="text-2xl font-bold">Skills</h2>
           <div className="text-xl font-light">
-            <p>Java, Python, JavaScript, C++, HTML, CSS, React.js, Next.js</p>
-            <p>MySQL, MongoDB</p>
-            <p>Git, Docker, AWS</p>
-            <p>Problem Solving, Analytical Skills</p>
-            <p>Team Collaboration, Project Management</p>
+              <p><strong className="font-black">Languages:</strong> JavaScript, Python, C++, HTML, CSS, SQL</p>
+              <p><strong className="font-black">Frameworks & Libraries:</strong> React.js, Next.js, TailwindCSS, Express.js, Node.js</p>
+              <p><strong className="font-black">Databases:</strong> MongoDB, Supabase, Firebase</p>
+              <p><strong className="font-black">Tools & Platforms:</strong> Git, Docker, AWS, Vercel, Heroku</p>
+              <p><strong className="font-black">Methodologies:</strong> Agile, Scrum, CI/CD</p>
+              <p><strong className="font-black">Soft Skills:</strong> Problem Solving, Analytical Skills, Team Collaboration, Project Management</p>
           </div>
         </div>
       </div>
