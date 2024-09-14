@@ -25,14 +25,6 @@ function Navigation() {
             About
           </Link>
           <Link
-            to="education"
-            smooth={true}
-            duration={500}
-            className="mx-2 font-aesthetic cursor-pointer"
-          >
-            Education
-          </Link>
-          <Link
             to="experience"
             smooth={true}
             duration={500}
@@ -41,12 +33,12 @@ function Navigation() {
             Experience
           </Link>
           <Link
-            to="extra"
+            to="education"
             smooth={true}
             duration={500}
             className="mx-2 font-aesthetic cursor-pointer"
           >
-            Extra
+            Education
           </Link>
           <Link
             to="contact"

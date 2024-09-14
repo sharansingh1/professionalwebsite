@@ -14,7 +14,6 @@ function LandingPage({ imageSrc }) {
         <p className="text-xl md:text-2xl font-aesthetic mb-4">Software Engineer</p>
       </div>
       <div className="absolute inset-x-0 bottom-0 z-50">
-        <ThreeDCharacter />
       </div>
     </div>
   );

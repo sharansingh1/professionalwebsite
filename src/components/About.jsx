@@ -11,7 +11,7 @@ function About () {
                    is to become a full time Software Engineer and contribute to a greater cause. Outside of coding I have interests
                     in anime, video, games, basketball, and martial arts. For more information check out my resume below!
                 </p>
-                <a href="Singh_Shranjeet (12).pdf" target="_blank" className='border px-10 py-2 rounded-full'>Resume</a>
+                <a href="Singh_Shranjeet (20).pdf" target="_blank" className='border px-10 py-2 rounded-full'>Resume</a>
             </div>
 
             
