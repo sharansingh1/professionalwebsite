@@ -3,24 +3,31 @@ import React from "react";
 function Experience() {
   const experiences = [
     {
-      title: "Undergraduate Researcher - Machine Learning",
-      description: "As an Undergraduate Researcher at the University of California, Riverside, I worked on enhancing the Wav2Vec model to improve speech recognition for accented English. I contributed to the EdgeAvatar project by refining AI models, integrating new datasets, and expanding the range of accurately transcribed accents."
+      title: "Software Engineer Intern – Center for Environmental Research & Technology",
+      date: "Jan 2024 – Jun 2025",
+      description:
+        "Engineered a full-stack air quality research platform using React, Next.js, and TailwindCSS to centralize data from 100+ sensors. Built interactive maps and data visualizations, improving researcher efficiency by automating manual processes and enabling real-time pollution trend analysis."
     },
     {
-      title: "Software Developer Intern",
-      description: "In my role as an Software Developer Intern at the department of CE-CERT at UCR I was part of a dynamic team focused on engineering a comprehensive website to centralize air quality data from diverse sources. Working closely with professionals, I contributed to the development of specialized data pages using JavaScript, Tailwind CSS, and React, significantly improving data accessibility and analysis capabilities.",
+      title: "Machine Learning Engineer Intern – Bourns College of Engineering",
+      date: "Jun 2024 – Aug 2024",
+      description:
+        "Trained and fine-tuned speech recognition models for accented English using transfer learning on multilingual audio datasets. Built data pipelines and benchmarking tools, achieving significantly lower word error rates and making speech technology more inclusive."
     },
     {
-      title: "Software Engineer Intern",
-      description: "During my internship at Trapnstudio, I had the opportunity to contribute to the development of a cross-platform app designed for users with varying levels of technical proficiency. Working within a backend team, I focused on implementing critical endpoints in a REST API using Next.js, which significantly enhanced the app's functionality and performance.",
+      title: "Backend Developer Intern – Trapnstudio",
+      date: "Jun 2023 – Aug 2023",
+      description:
+        "Developed backend features for a cross-platform music app and multilingual AI chatbot. Implemented real-time queue systems and role-based authentication while optimizing performance and scalability for a smoother user experience."
     },
     {
-      title: "Software Engineer Community",
-      description: "As a member of the Software Engineer Committee at the Association for Computing Machinery (ACM), my primary responsibility was to collaborate with a diverse team in developing full-stack websites for university Hackathons. I played a hands-on role in resolving front-end challenges, implementing new features, and ensuring the quality of the websites through rigorous testing, resulting in highly functional platforms utilized by hundreds of students.",
-    },
-    
-    
+      title: "Software Engineer Committee – ACM",
+      date: "Sep 2022 – Jun 2025",
+      description:
+        "Collaborated with a team to develop full-stack websites for hackathons and student events. Focused on solving front-end challenges, adding features, and delivering reliable platforms used by hundreds of students during major campus events."
+    }
   ];
+
 
   return (
     <div id="experience" className="bg-black text-white py-20">
@@ -31,7 +38,8 @@ function Experience() {
             key={index}
             className="bg-black p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:bg-white hover:font-bold hover:text-black w-full max-w-xs md:max-w-md lg:max-w-lg text-center"
           >
-            <h2 className="text-2xl font-bold mb-4">{exp.title}</h2>
+            <h2 className="text-2xl font-bold mb-2">{exp.title}</h2>
+            <p className="text-gray-400 mb-4">{exp.date}</p>
             <p>{exp.description}</p>
           </div>
         ))}

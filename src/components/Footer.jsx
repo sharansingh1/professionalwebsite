@@ -12,7 +12,7 @@ function Footer() {
           <a href="https://github.com/sharansingh1" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-400">
             <FaGithub />
           </a>
-          <a href="mailto:ssing288@ucr.edu" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-400">
+          <a href="mailto:shranjeetsingh03@gmail.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-400">
             <FaEnvelope />
           </a>
         </div>

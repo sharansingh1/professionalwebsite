@@ -12,7 +12,7 @@ function Navigation() {
             duration={500}
             className="mx-2 font-aesthetic cursor-pointer"
           >
-            Sharanjeet
+            Shranjeet
           </Link>
         </div>
         <div>
